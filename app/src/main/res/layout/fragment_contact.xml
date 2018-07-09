@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ContactFragment">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        app:cardElevation="@dimen/cardElevationSmall"
+        app:contentPadding="@dimen/padding"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/devContactNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginSmall"
+            android:layout_marginBottom="@dimen/marginSmall"
+            android:background="@drawable/button_bg_primary"
+            android:drawableStart="@android:drawable/ic_menu_call"
+            android:drawableTint="@android:color/white"
+            android:padding="@dimen/paddingSmall"
+            android:text="@string/dev_contact_number"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"/>
+
+        <!--<Button-->
+            <!--android:id="@+id/devEmail"-->
+            <!--android:layout_below="@id/devContactNumber"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="@dimen/marginSmall"-->
+            <!--android:layout_marginBottom="@dimen/marginSmall"-->
+            <!--android:background="@drawable/button_bg_primary"-->
+            <!--android:drawableStart="@android:drawable/ic_menu_call"-->
+            <!--android:drawableTint="@android:color/white"-->
+            <!--android:padding="@dimen/paddingSmall"-->
+            <!--android:text="@string/dev_contact_number"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:layout_gravity="center"/>-->
+
+    </android.support.v7.widget.CardView>
+
+</android.support.constraint.ConstraintLayout>

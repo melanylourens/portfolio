@@ -1,0 +1,21 @@
+<resources>
+    <dimen name="marginSmall">8dp</dimen>
+    <dimen name="margin">16dp</dimen>
+    <dimen name="paddingSmall">8dp</dimen>
+    <dimen name="padding">16dp</dimen>
+
+    <dimen name="cardElevation">16dp</dimen>
+    <dimen name="cardElevationSmall">4dp</dimen>
+    <dimen name="cardCornerRadius">5dp</dimen>
+
+    <dimen name="fontSmall">12sp</dimen>
+    <dimen name="fontMedium">16sp</dimen>
+    <dimen name="fontLarge">20sp</dimen>
+    <dimen name="fontExtraLarge">26sp</dimen>
+
+    <dimen name="circularImageSize">96dp</dimen>
+    <dimen name="circularImageBorderWidth">1dp</dimen>
+
+    <dimen name="buttonBorderWidth">1dp</dimen>
+    <dimen name="buttonRadius">10dp</dimen>
+</resources>

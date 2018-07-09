@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Melany Portfolio</string>
+
+    <string name="dev_name">Melany Lourens</string>
+    <string name="dev_profession">Mobile Developer</string>
+    <string name="dev_get_in_touch">Get in touch</string>
+    <string name="dev_about">Hi, my name is Melany. "\n"I am a well-rounded mobile developer with experience in various languages and technologies. "\n"I studied BSc IT Software Development at the University of Pretoria.</string>
+    <string name="dev_work">* Standard Bank Banking App (Android)"\n"* Momentum Client App (Android and iOS)</string>
+    <string name="dev_skills">* Java "\n"* Swift "\n"* Kotlin "\n"* Typescript "\n\n"* Android "\n"* iOS "\n"* Xamarin "\n"* Ionic</string>
+    <string name="dev_contact_number">079 8899 067</string>
+    <string name="dev_contact_email">Lourensmelany@gmail.com</string>
+</resources>
